@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Conteúdo rolável -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_above="@id/bottom_navigation"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Nome da Empresa -->
+            <EditText
+                android:id="@+id/editTextNomeEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome da Empresa"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:layout_marginTop="4dp" />
+
+            <!-- WhatsApp -->
+            <EditText
+                android:id="@+id/editTextWhatsApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="WhatsApp"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:layout_marginTop="12dp" />
+
+            <!-- CEP + Buscar CEP -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp">
+
+                <EditText
+                    android:id="@+id/editTextCep"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="CEP"
+                    android:inputType="number"
+                    android:minHeight="48dp" />
+
+                <Button
+                    android:id="@+id/btnBuscarCep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buscar"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+
+            <!-- Endereço (Campos desabilitados) -->
+            <EditText
+                android:id="@+id/editTextRua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="Rua"
+                android:minHeight="48dp"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/editTextBairro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="Bairro"
+                android:minHeight="48dp"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/editTextCidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="Cidade"
+                android:minHeight="48dp"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/editTextEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="Estado"
+                android:minHeight="48dp"
+                android:layout_marginTop="12dp" />
+
+            <!-- Segmento (Spinner com prompt via código) -->
+            <Spinner
+                android:id="@+id/spinnerSegmento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+                android:minHeight="48dp"
+                android:layout_marginTop="12dp" />
+
+            <!-- Selecionar Imagem -->
+            <Button
+                android:id="@+id/btnSelecionarImagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecionar Imagem"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/textNomeArquivoImagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nenhuma imagem selecionada"
+                android:textColor="#666"
+                android:layout_marginTop="8dp" />
+
+            <!-- Botão Salvar -->
+            <Button
+                android:id="@+id/btnSalvarEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salvar Empresa"
+                android:layout_marginTop="24dp" />
+
+            <!-- ProgressBar -->
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Barra de navegação inferior fixa -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:menu="@menu/menu_bottom_nav"
+        app:labelVisibilityMode="unlabeled"
+        app:itemIconSize="24dp"
+        app:itemIconTint="@color/bottom_nav_icon_tint"
+        app:itemHorizontalTranslationEnabled="false"
+        app:itemTextAppearanceActive="@style/BottomNavEmptyText"
+        app:itemTextAppearanceInactive="@style/BottomNavEmptyText" />
+
+</RelativeLayout>

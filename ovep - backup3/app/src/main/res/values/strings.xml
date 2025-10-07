@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">ovep</string>
+    <string name="recuperar_senha">Recuperar Senha</string>
+    <string name="voltar_ao_login">Voltar ao Login</string>
+    <string name="digite_seu_e_mail">Digite seu e-mail</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="segmentos">
+        <item>Saúde</item>
+        <item>Alimentação</item>
+        <item>Educação</item>
+        <item>Beleza</item>
+        <item>Construção</item>
+        <item>Advocacia</item>
+        <item>Arquitetura</item>
+        <item>Automotivo</item>
+        <item>Babá</item>
+        <item>Barbearia</item>
+        <item>Bioenergética</item>
+        <item>Blogging</item>
+        <item>Coaching</item>
+        <item>Consultoria Empresarial</item>
+        <item>Consultoria Financeira</item>
+        <item>Design Gráfico</item>
+        <item>Design de Interiores</item>
+        <item>Dog Walker</item>
+        <item>Educação Infantil</item>
+        <item>Eletricista</item>
+        <item>Encanador</item>
+        <item>Engenharia Civil</item>
+        <item>Estética</item>
+        <item>Eventos</item>
+        <item>Fisioterapia</item>
+        <item>Fitness Personal Trainer</item>
+        <item>Floricultura</item>
+        <item>Fotografia</item>
+        <item>Gastronomia</item>
+        <item>Gestão de RH</item>
+        <item>Hospedagem</item>
+        <item>Imobiliária</item>
+        <item>Informática</item>
+        <item>Jardinagem</item>
+        <item>Limpeza Residencial</item>
+        <item>Marketing Digital</item>
+        <item>Massoterapia</item>
+        <item>Mecânica Automotiva</item>
+        <item>Moda</item>
+        <item>Nutrição</item>
+        <item>Odontologia</item>
+        <item>Oficina Mecânica</item>
+        <item>Organização de Eventos</item>
+        <item>Personal Organizer</item>
+        <item>Pet Shop</item>
+        <item>Psicologia</item>
+        <item>Public Relations</item>
+        <item>Redação</item>
+        <item>Reformas</item>
+        <item>Restaurante</item>
+        <item>Salão de Beleza</item>
+        <item>Segurança</item>
+        <item>Serviços de Entrega</item>
+        <item>Serviços Domésticos</item>
+        <item>Serviços Jurídicos</item>
+        <item>Serviços Médicos</item>
+        <item>Serviços Técnicos</item>
+        <item>Sistema de Informação</item>
+        <item>Software</item>
+        <item>Suporte Técnico</item>
+        <item>Taxi</item>
+        <item>Terapeuta Holístico</item>
+        <item>Treinamento Corporativo</item>
+        <item>Turismo</item>
+        <item>Veterinária</item>
+        <item>Yoga</item>
+        <item>Administração</item>
+        <item>Aluguel de Carros</item>
+        <item>Artesanato</item>
+        <item>Assistência Técnica</item>
+        <item>Atendimento ao Cliente</item>
+        <item>Autônomo</item>
+        <item>Biblioteca</item>
+        <item>Brinquedoteca</item>
+        <item>Consultoria Ambiental</item>
+        <item>Consultoria de Marketing</item>
+        <item>Consultoria de Vendas</item>
+        <item>Contabilidade</item>
+        <item>Corretor de Imóveis</item>
+        <item>Costura</item>
+        <item>Criação de Conteúdo</item>
+        <item>Cuidador de Idosos</item>
+        <item>Delivery de Comida</item>
+        <item>Desenvolvimento Web</item>
+        <item>Desenvolvimento de Apps</item>
+        <item>Detetive Particular</item>
+        <item>Educação à Distância</item>
+        <item>Elétrica Residencial</item>
+        <item>Estúdio de Dança</item>
+        <item>Fabricação de Móveis</item>
+        <item>Fazenda</item>
+        <item>Filmagem e Vídeo</item>
+        <item>Gesso e Drywall</item>
+        <item>Help Desk</item>
+        <item>Importação e Exportação</item>
+        <item>Instalação de Software</item>
+        <item>Limpeza Comercial</item>
+        <item>Locação de Equipamentos</item>
+        <item>Manutenção Predial</item>
+        <item>Manutenção de Computadores</item>
+        <item>Manutenção de Equipamentos</item>
+        <item>Marketing de Conteúdo</item>
+        <item>Montagem de Móveis</item>
+        <item>Oficina de Bicicletas</item>
+        <item>Padaria</item>
+        <item>Personal Trainer Online</item>
+        <item>Produção Audiovisual</item>
+        <item>Reparos Residenciais</item>
+        <item>Segurança Eletrônica</item>
+    </string-array>
+    <string-array name="estados">
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Ceará</item>
+        <item>Distrito Federal</item>
+        <item>Espírito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
+
+</resources>

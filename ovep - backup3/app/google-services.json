@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "595290137657",
+    "project_id": "ovep-50d86",
+    "storage_bucket": "ovep-50d86.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595290137657:android:4d607a4fd2331824cbd9e8",
+        "android_client_info": {
+          "package_name": "com.example.ovep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkHKC8CBTwp3O9NSZhgnKzQPVO4gG4cks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
